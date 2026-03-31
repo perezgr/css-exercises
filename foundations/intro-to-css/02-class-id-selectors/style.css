@@ -1,35 +1,25 @@
 /* Add CSS Styling */
 /*The third element**: in addition to the styles for all odd numbered elements, add a font size of 24px*/
-.classOne,
-.classThree,
-.classFive
+.classOdd
 {
     background-color: #FFC0CB;
-    font-size: 24px;
-    font-family:'Times New Roman', 'Verdana', 'DejaVu Sans', sans-serif;
+    font-family:Verdana, "DejaVu Sans", sans-serif;
+}
 
+
+.classFont{
+font-size: 24px;
 }
 
 /*Class two declares blue text and a font size of 36px*/
-#classTwo {
+#idTwo {
   color: #0000FF;
   font-size: 36px;
 
-}
-
-/*Overrides the font size declared above and maintains all other properties*/
-.classThree{
-    font-size: 30px;
-}
-
-#classTwo {
-  color: #0000FF;
-  font-size: 36px;
 }
 
 /* classFour: a light green background, a font size of 24px, and bold */
-#classFour{
-    font-size: 24px;
+#idFour{
     background-color: #90EE90;
     font-weight: bold;
 }
