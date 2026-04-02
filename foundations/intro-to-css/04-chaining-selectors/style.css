@@ -14,6 +14,6 @@ then make its height twice as big as its width (here you should hardcode in a pi
 
 .avatar.distorted
 {
-    width: 200;
-    height: 400;
+    width: 200px;
+    height: 400px;
 }
